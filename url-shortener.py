@@ -12,12 +12,14 @@ def printtext():
     Label(root,text=sh).pack()
 
 root.title('URL shortener')
+
+a='Enter Your URL : '
+Label(root,text=a).pack()
+
 e=Entry(root)
 e.pack()
 e.focus_set()
 
-l1 = Label(root,text="name")
-l1.config(font=("Courier",10))
 print("done2")
 b=Button(root,text='short the URL',command=printtext)
 
